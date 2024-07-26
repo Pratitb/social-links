@@ -11,7 +11,7 @@ const Person = ({ PersonName, PersonLocation, PersonRole }: PersonProps) => {
 		<>
 			<div className={styles.person}>
 				<img
-					src="/profile_image.png"
+					src="./profile_image.png"
 					alt="person image"
 					className={styles.person_image}
 				/>
